@@ -1,0 +1,95 @@
+{
+  "language": {
+    "switchToId": "Bahasa Indonesia",
+    "switchToEn": "English"
+  },
+  "navigation": {
+    "brand": "Service & Renovation",
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "cta": "Contact Us"
+  },
+  "hero": {
+    "headline": "Expert Ceramic, Granite, Light Steel, and Paint Services",
+    "subheadline": "Transform your home with precision installers and renovators trusted across Denpasar. From tile craftsmanship to light steel structures and premium finishes, we deliver durable, beautiful results on time.",
+    "businessName": "Service & Renovation • Ceramic, Granite, Light Steel, and Paint",
+    "badge": "Service & Renovation",
+    "contactCta": "Contact Us",
+    "galleryCta": "View Gallery"
+  },
+  "about": {
+    "title": "About Us",
+    "businessName": "Service & Renovation • Ceramic, Granite, Light Steel, and Paint",
+    "description": "Service & Renovation Ceramic, Granite, Light Steel, and Paint is your local team for meticulous installation and renovation across Bali. We combine skilled craftsmanship with premium materials to refresh interiors, strengthen structures, and revitalize exteriors.",
+    "highlights": [
+      "Precise ceramic and granite tile installation with clean finishing",
+      "Lightweight steel roofing and framing tailored to your project",
+      "Professional interior & exterior painting with lasting protection"
+    ]
+  },
+  "services": {
+    "title": "Our Core Services",
+    "description": "Comprehensive renovation support for residential and commercial spaces.",
+    "items": {
+      "tile": {
+        "title": "Ceramic & Granite Installation",
+        "description": "Flooring, walls, and custom layouts with level alignment and waterproofing."
+      },
+      "renovation": {
+        "title": "Kitchen & Bathroom Renovation",
+        "description": "Remodeling, re-tiling, fixtures, and finishing touches that refresh daily spaces."
+      },
+      "steel": {
+        "title": "Light Steel Roofing",
+        "description": "Durable lightweight steel structures with weather-resistant coatings."
+      },
+      "painting": {
+        "title": "Interior & Exterior Painting",
+        "description": "Surface preparation, color consultation, and premium coatings for lasting color."
+      },
+      "maintenance": {
+        "title": "Maintenance & Repairs",
+        "description": "Leak fixes, grout restoration, and periodic maintenance for tiles and steel."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Recent Projects",
+    "description": "Highlights from completed installations, structural upgrades, and finishing work.",
+    "photosHeading": "Project Photos",
+    "videosHeading": "On-Site Videos",
+    "imagesAlt": {
+      "livingRoom": "Granite flooring with steel framework",
+      "bathroom": "Modern bathroom finished with granite",
+      "roof": "Wall restoration and resurfacing",
+      "exterior": "Balinese sanggah construction"
+    },
+    "videoTitle": "Renovation in Progress",
+    "videoLabels": [
+      "Living room tile installation progress",
+      "Bathroom granite finishing detail",
+      "Light steel structure assembly",
+      "Exterior painting preparation",
+      "Final renovation walkthrough"
+    ]
+  },
+  "contact": {
+    "title": "Contact & Consultation",
+    "description": "Tell us about your renovation plan. We're ready to survey, build, and perfect your space.",
+    "details": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "brand": "Service & Renovation • Ceramic, Granite, Light Steel, and Paint",
+    "rights": "© {{year}} Service & Renovation Ceramic, Granite, Light Steel, and Paint. All rights reserved.",
+    "contactLink": "Contact",
+    "languageLabel": "Language"
+  }
+}

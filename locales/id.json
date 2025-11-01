@@ -1,0 +1,95 @@
+{
+  "language": {
+    "switchToId": "Bahasa Indonesia",
+    "switchToEn": "English"
+  },
+  "navigation": {
+    "brand": "Servis & Renovasi",
+    "links": {
+      "about": "Tentang",
+      "services": "Layanan",
+      "gallery": "Galeri",
+      "contact": "Kontak"
+    },
+    "cta": "Hubungi Kami"
+  },
+  "hero": {
+    "headline": "Ahli Servis Kramik, Granite, Baja Ringan, dan Pengecatan",
+    "subheadline": "Wujudkan hunian impian dengan tim profesional yang dipercaya di Denpasar. Dari pemasangan kramik hingga struktur baja ringan dan pengecatan, kami memberikan hasil rapi, kuat, dan tepat waktu.",
+    "businessName": "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat",
+    "badge": "Servis & Renovasi",
+    "contactCta": "Hubungi Kami",
+    "galleryCta": "Lihat Galeri"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "businessName": "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat",
+    "description": "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat adalah tim lokal yang ahli dalam pemasangan dan renovasi di Bali. Kami menggabungkan keterampilan teknis dan material berkualitas untuk memperbarui interior, memperkuat struktur, dan mempercantik eksterior.",
+    "highlights": [
+      "Pemasangan kramik dan granite presisi dengan finishing rapi",
+      "Atap dan rangka baja ringan sesuai kebutuhan proyek Anda",
+      "Pengecatan interior & eksterior profesional dengan hasil tahan lama"
+    ]
+  },
+  "services": {
+    "title": "Layanan Utama Kami",
+    "description": "Dukungan renovasi lengkap untuk rumah dan bangunan komersial.",
+    "items": {
+      "tile": {
+        "title": "Pemasangan Kramik & Granite",
+        "description": "Lantai, dinding, dan pola khusus dengan perataan dan waterproofing."
+      },
+      "renovation": {
+        "title": "Renovasi Dapur & Kamar Mandi",
+        "description": "Tata ulang, pemasangan ulang, fitting, dan finishing ruang favorit Anda."
+      },
+      "steel": {
+        "title": "Atap Baja Ringan",
+        "description": "Struktur baja ringan yang kuat dengan lapisan pelindung cuaca."
+      },
+      "painting": {
+        "title": "Pengecatan Interior & Eksterior",
+        "description": "Persiapan permukaan, konsultasi warna, dan cat premium tahan lama."
+      },
+      "maintenance": {
+        "title": "Perawatan & Perbaikan",
+        "description": "Perbaikan kebocoran, restorasi nat, dan perawatan berkala kramik serta baja."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Proyek Terbaru",
+    "description": "Cuplikan pemasangan, peningkatan struktur, dan finishing yang telah diselesaikan.",
+    "photosHeading": "Foto Proyek",
+    "videosHeading": "Video Lapangan",
+    "imagesAlt": {
+      "livingRoom": "Pemasangan granit dan rangka besi",
+      "bathroom": "Kamar mandi modern dengan granite",
+      "roof": "Perbaikan tembok retak",
+      "exterior": "Pembuatan sanggah Bali"
+    },
+    "videoTitle": "Proses Renovasi",
+    "videoLabels": [
+      "Progres pemasangan kramik ruang tamu",
+      "Detail finishing granite kamar mandi",
+      "Perakitan rangka baja ringan",
+      "Persiapan pengecatan eksterior",
+      "Walkthrough pemeriksaan akhir"
+    ]
+  },
+  "contact": {
+    "title": "Kontak & Konsultasi",
+    "description": "Sampaikan rencana renovasi Anda. Kami siap survei, membangun, dan menyempurnakan ruangan Anda.",
+    "details": {
+      "address": "Alamat",
+      "phone": "Telepon",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "brand": "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat",
+    "rights": "© {{year}} Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat. Hak cipta dilindungi.",
+    "contactLink": "Kontak",
+    "languageLabel": "Bahasa"
+  }
+}
