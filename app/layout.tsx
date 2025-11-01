@@ -8,10 +8,149 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const businessName =
+  "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat";
+const businessDescription =
+  "Jasa pemasangan kramik, granite, rangka baja ringan, dan pengecatan rumah profesional di Denpasar, Bali.";
+
 export const metadata: Metadata = {
-  title: "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat",
-  description:
-    "Jasa pemasangan kramik, granite, rangka baja ringan, dan pengecatan rumah profesional di Denpasar, Bali.",
+  metadataBase: new URL("https://servis-dan-renovasi.example.com"),
+  title: {
+    default: businessName,
+    template: `%s | ${businessName}`,
+  },
+  description: businessDescription,
+  keywords: [
+    "jasa renovasi denpasar",
+    "servis kramik bali",
+    "pemasangan granite",
+    "baja ringan denpasar",
+    "pengecatan rumah bali",
+    "renovasi rumah bali",
+    "kontraktor denpasar",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    title: businessName,
+    description: businessDescription,
+    url: "https://servis-dan-renovasi.example.com",
+    siteName: businessName,
+    type: "website",
+    locale: "id_ID",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+        width: 1200,
+        height: 630,
+        alt: "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: businessName,
+    description: businessDescription,
+    images: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+    ],
+  },
+  category: "construction",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  name: businessName,
+  description: businessDescription,
+  image:
+    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+  url: "https://servis-dan-renovasi.example.com",
+  telephone: "+62-852-1053-9485",
+  email: "Akun.agnes99.an@mail.com",
+  priceRange: "$$",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Keboiwa Selatan, Gg. Mangga, Banjar Lepang",
+    addressLocality: "Denpasar",
+    addressRegion: "Bali",
+    postalCode: "80235",
+    addressCountry: "ID",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: -8.6383802,
+    longitude: 115.1842048,
+  },
+  areaServed: [
+    {
+      "@type": "City",
+      name: "Denpasar",
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Bali",
+    },
+  ],
+  sameAs: [
+    "https://www.google.com/maps?q=-8.6383802,115.1842048&z=17&hl=id",
+    "https://wa.me/6285210539485",
+  ],
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      opens: "08:00",
+      closes: "18:00",
+    },
+  ],
+  makesOffer: [
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Pemasangan dan renovasi kramik serta granite",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Konstruksi rangka baja ringan",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Pengecatan interior dan eksterior rumah",
+      },
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -21,7 +160,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <body className={`${inter.variable} antialiased bg-slate-100 text-slate-900`}>
+      <body
+        className={`${inter.variable} antialiased bg-slate-100 text-slate-900`}
+      >
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
         {children}
       </body>
     </html>

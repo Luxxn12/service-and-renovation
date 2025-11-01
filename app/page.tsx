@@ -13,7 +13,7 @@ export default function Home() {
     <LanguageProvider>
       <main className="min-h-screen bg-slate-100 pb-20 font-sans">
         <NavBar />
-        <div className="mx-auto flex max-w-7xl flex-col gap-16 px-4 pt-16 sm:px-8 lg:px-12">
+        <div className="mx-auto flex max-w-7xl flex-col gap-16 px-4 pt-8 sm:px-8 lg:px-12">
           <Hero />
           <About />
           <Services />
