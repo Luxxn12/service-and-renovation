@@ -161,13 +161,6 @@ export default function RootLayout({
   return (
     <html lang="id">
       <Head>
-        <script
-          type="application/ld+json"
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData),
-          }}
-        />
         <meta name="google-site-verification" content="I4KF-_0_m_FrJzJxBxskRdbjb4nNoS_jseU0BYa-uUo" />
       </Head>
       <body
