@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Head } from "next/document";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -160,9 +159,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <Head>
-        <meta name="google-site-verification" content="I4KF-_0_m_FrJzJxBxskRdbjb4nNoS_jseU0BYa-uUo" />
-      </Head>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="I4KF-_0_m_FrJzJxBxskRdbjb4nNoS_jseU0BYa-uUo"
+        />
+      </head>
       <body
         className={`${inter.variable} antialiased bg-slate-100 text-slate-900`}
       >
