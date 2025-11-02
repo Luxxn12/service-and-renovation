@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Head } from "next/document";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -8,13 +9,12 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const businessName =
-  "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat";
+const businessName = "Servis & Renovasi Kramik, Granite, Baja Ringan, dan Cat";
 const businessDescription =
   "Jasa pemasangan kramik, granite, rangka baja ringan, dan pengecatan rumah profesional di Denpasar, Bali.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://servis-dan-renovasi.example.com"),
+  metadataBase: new URL("https://service-and-renovation.vercel.app/"),
   title: {
     default: businessName,
     template: `%s | ${businessName}`,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: businessName,
     description: businessDescription,
-    url: "https://servis-dan-renovasi.example.com",
+    url: "https://service-and-renovation.vercel.app/",
     siteName: businessName,
     type: "website",
     locale: "id_ID",
@@ -82,7 +82,7 @@ const structuredData = {
   description: businessDescription,
   image:
     "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
-  url: "https://servis-dan-renovasi.example.com",
+  url: "https://service-and-renovation.vercel.app/",
   telephone: "+62-852-1053-9485",
   email: "Akun.agnes99.an@mail.com",
   priceRange: "$$",
@@ -160,6 +160,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
+      <Head>
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+        <meta name="google-site-verification" content="I4KF-_0_m_FrJzJxBxskRdbjb4nNoS_jseU0BYa-uUo" />
+      </Head>
       <body
         className={`${inter.variable} antialiased bg-slate-100 text-slate-900`}
       >
